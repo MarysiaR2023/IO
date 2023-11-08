@@ -151,11 +151,11 @@ Projekt zakłada, że samo użycie nowatorskich rozwiązań, nieoferowanych prze
 ## 5. Funkcjonalność produktu
 - System daje możliwość zakupu usługi oferowanej przez firmę (nadanie i przeslanie paczek lub paczki)
 - Ułatwia komunikacje między klientem a pracownikami firmy. 
-- System posiada takie funkcjonalnosci dla klientow firmy:
+System posiada takie funkcjonalnosci dla klientow firmy:
 - Nadanie Paczki - wykupienie usługi na przesłanie paczki
 - Odbiór Paczki - odebranie paczki bezposrednio od kuriera lub z paczkomatu
 - Śledzenie Paczki - mozliwosc zobaczenia ststusu paczki.
-- Funkcjonalnosci zapewniane przez system dla pracowników firmy:
+Funkcjonalnosci zapewniane przez system dla pracowników firmy:
 
 Dla kurierów:
 - Obszar pracy - lista adresow + adres magazynu
@@ -167,41 +167,16 @@ Dla administracji:
 - Kontakt z klientami - Dział obslugi klienta
 - Przydzielanie zadań kurierom - latwiejsza i szybsza komunikacja	
 ### 5.1. Nadanie Paczki
-5.1.1. Klient loguje sie do systemu
-5.1.2. Klient wypełnia formularz
-5.1.3  Klient dokonuje płatnosci
-5.1.4 Klient dostaje kod QR
-5.1.5 Paczka otrzymuje status do nadania
+
 
 ### 5.2. Odbierz Paczke
-5.2.1 Odbiór z paczkomatu
-Klient wpisuje na ekranie paczkomatu kod odbioru
-Paczkomat wydaje paczke
-Paczka zmienia w systemie status na odebrana
-5.2.2 Odbiór pod podanym adresem
-Klient wybiera date i godzine
-Kurier przekazuje paczke klientowi
-Kurier zmienia status paczki na odebrana
+
 
 ### 5.3. Śledź Paczke
-5.3.1 Klient jest zalogowany
-5.3.1.1Klient wybiera “moje paczki”
-5.3.1.2 Przechodzi do “nadane” lub  “do odbioru”
-5.3.1.3 System wyswietla liste paczek
-5.3.1.4 Klient wybiera Paczke
-5.3.1.5 System wyswietla ID paczki i status
-5.3.2 Klient nie jest zalogowany
-Klient wpisuje ID paczki
- Klient przechodzi do “śledź paczke”
-System wyswietla ID paczki i status
+
 
 ### 5.4. Zmień datę odbioru
-Klient wpisuje ID paczki
-Klient klika  “zmien date odbioru”
-Jesli status paczki: w magazynie
-To klient wpisuje date odbioru
-W innym wypadku System wyswietla brak mozliwosci zmiany terminu
-Operacja konczy sie porazka
+
 
 ### 5.5. Zaloguj sie
 
